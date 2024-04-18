@@ -1,0 +1,52 @@
+.main-div{
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+.two-column-container {
+    display: flex;
+    padding: 20px;
+    gap:30px;
+  }
+  
+  .image-column {
+    flex: 1;
+  }
+  
+  .content-column {
+    flex: 1;
+  }
+  
+  .editable-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-left:10px;
+  }
+  
+  .editable-paragraph {
+    color: #666;
+    padding-left:10px;
+  }
+  
+  .image-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    height:300px;
+  }
+  
+  .switch-button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .reverse-columns {
+    flex-direction: row-reverse;
+  }
+  
